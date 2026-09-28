@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+    color: #333;
+}
+
+
+.container {
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+header {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.introduction h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.introduction p {
+    text-align: justify;
+}
+
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.profile figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+
+.experience-list li:nth-child(1) {
+    font-weight: 300;
+}
+
+.experience-list li:nth-child(2) {
+    font-weight: bold;
+}
+
+.experience-list li:nth-child(3) {
+    font-weight: 300;
+}
+
+.experience-list li:nth-child(4) {
+    font-weight: bold;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: #243b55;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    border: 1px solid #999;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6edf5;
+}
+
+.project-list {
+    margin: 15px;
+}
+
+.project-card {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e6edf5;
+}
+
+.video-container {
+    text-align: center;
+    width: 100%;
+}
+
+.video-container iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
+
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
